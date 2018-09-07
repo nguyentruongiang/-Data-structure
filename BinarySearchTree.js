@@ -37,13 +37,4 @@ BinarySearchTree.prototype.push = function (data, root) {
     }
     return "erro";
 }
-var bst = new BinarySearchTree(
-    function(a,b){
-      return (a.number-b.number)
-    }
-)
-bst.push(new TestData(1),bst.root)
-bst.push(new TestData(0),bst.root)
-bst.push(new TestData(2),bst.root)
-bst.push(new TestData(1),bst.root)
-console.log(bst.result)
+
